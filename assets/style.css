@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #ffffde;
+    background-size: cover;
+}
+
+html {
+    font-family:Bahnschrift, sans-serif;
+    color: #222222;
+}
+
+main {
+    padding: 0.8vh;
+}
+
+a {
+    text-decoration-line: none;
+    color: #222222;
+}
+
+#row, .column, nav, .mosaic, .boxImg, .mail, #title, .outline {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#row {
+    padding: 1vh;
+    justify-content: space-between;
+}
+
+nav {
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+#title {
+    align-items: center;
+}
+
+nav a {
+    flex-basis: 15%;
+    padding: 2vh 0;
+    background-color: #222222;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    justify-content: flex-end;
+}
+
+nav a{
+    border: 1px solid #000;
+}
+
+.frameText, .third, .boxImg {
+    background-color: white;
+}
+
+.frameText{
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:4px 4px 8px 2px #222222;
+}
+
+.side {
+    width: 12%;
+}
+
+#article {
+    width: 90%;
+}
+
+.third {
+    width: 30%;
+    text-align: center;
+}
+
+.mosaic {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxImg {
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    width: 22vw;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    box-shadow:4px 4px 8px 2px #222222;
+}
+
+.boxImg img {
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.mail {
+    justify-content: center;
+}
+
+.half {
+    width: 50%;
+    justify-content: center;
+}
+
+.outline {
+    width: 100%;
+    justify-content: center;
+}
+
+.frameText ul {
+    text-align: left;
+}
+
+/*todo hover on links*/
